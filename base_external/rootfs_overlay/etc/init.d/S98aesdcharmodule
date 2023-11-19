@@ -3,7 +3,7 @@
 case "$1" in
 	start)
 		echo "loading aesdchar driver"
-	        /etc/init.d/aesdchar_load	
+	        /etc/init.d/aesdchar_load
 		;;
 	stop)
 		echo "unloading aesdchar driver"

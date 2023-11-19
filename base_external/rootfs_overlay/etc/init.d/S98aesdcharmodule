@@ -3,9 +3,11 @@
 case "$1" in
 	start)
 		echo "loading aesdchar driver"
+	        /etc/init.d/aesdchar_load	
 		;;
 	stop)
 		echo "unloading aesdchar driver"
+		/etc/init.d/aesdchar_unload
 		;;
 	*)
 		echo "usage: $0 {start|stop}"

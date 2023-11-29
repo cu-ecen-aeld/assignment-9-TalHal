@@ -6,7 +6,7 @@
 ##############################################################
 
 # Fill up the contents below in order to reference your ldd  git contents
-AESDCHAR_VERSION = '17090b3de3e0de63726730914c645a1337b95a71'
+AESDCHAR_VERSION = 'e557a8da99c7e0ab4aa2d298da6576f62afa9c2c'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
